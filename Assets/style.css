@@ -1,17 +1,59 @@
 body {
-    background-color: rgb(70, 179, 209);
+    background-color: rgb(167, 228, 244);
 }
 
 h1 {
     font-family: 'Tangerine', Times, serif;
+    font-size:400%
 }
 
-.main-image{
-    width: 200px;
-    height: 200px;
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-image {
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
+.space-holder1 {
 
-.Navigation{
-    display: flex; justify-content: space-around;
+}
+
+.space-holder2 {
+
+}
+
+.space-holder3 {
+
+}
+.space-holder4 {
+
+}
+
+.Navigation {
+    display: flex; justify-content: flex-end;
+}   
+
+.family-pic {
+    width: 100;
+    height: 100px;
+}
+
+//foot
+.contact-me {
+        display:block;
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:0;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 24px;
+        height: 36px;
+        text-align: center;
 }
