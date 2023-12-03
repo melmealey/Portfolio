@@ -23,13 +23,14 @@ header {
     
    
 }
+.Family {
+    opacity: .50;
+}
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-size: 30px;
 }
-/* header nav {
-    
-} */
+
 
 header nav ul {
     display: flex;
@@ -63,7 +64,7 @@ main {
 }
 
 .Horiseon {
-    background-image: url("/Assets/Horiseon.png");
+    background-image: url("../Assets/Horiseon.png");
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -79,7 +80,7 @@ main {
 }
 
 .Gears {
-    background-image: url("/Assets/space-holder1.jpeg");
+    background-image: url("../Assets/space-holder1.jpeg");
     width: 400px;
     height: 300px;
     background-size: cover;
@@ -89,7 +90,7 @@ main {
 }
 
 .Lightbulb {
-    background-image: url("/Assets/space-holder2.webp");
+    background-image: url("../Assets/space-holder2.webp");
     width: 400px;
     height: 300px;
     background-size: cover;
@@ -100,7 +101,7 @@ main {
     
 
 .Code {
-    background-image: url("/Assets/space-holder3.jpeg");
+    background-image: url("../Assets/space-holder3.jpeg");
     width: 400px;
     height: 300px;
     background-size: cover;
@@ -110,7 +111,7 @@ main {
  }
         
 .WWC {
-    background-image: url("/Assets/space-holder4.jpeg");    
+    background-image: url("../Assets/space-holder4.jpeg");    
     width: 400px;
     height: 300px;
     background-size: cover;
@@ -120,7 +121,7 @@ main {
 }
        
 .label {
-    background-color: antiquewhite;
+    background-color: rgb(9, 9, 80);
     padding: 20px;
     display: inline-block;
     width: 300px;
