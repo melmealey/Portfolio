@@ -24,13 +24,18 @@ header {
    
 }
 .Family {
-    opacity: .50;
+    
 }
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
 }
 
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 header nav ul {
     display: flex;
@@ -46,7 +51,7 @@ header nav ul li {
 body {
     background-color: rgb(167, 228, 244);
     padding: 15px;
-   line-height: 1.5;
+    line-height: 1.5;
 }
 
 main {
@@ -121,7 +126,7 @@ main {
 }
        
 .label {
-    background-color: rgb(9, 9, 80);
+    background-color: rgb(5, 97, 122);
     padding: 20px;
     display: inline-block;
     width: 300px;
@@ -131,15 +136,7 @@ main {
  }
 
 
-.contact-me {
-        display:block;
-        position:absolute;
-        left:0;
-        right:0;
-        bottom:0;
-        padding-top: 14px;
-        padding-bottom: 14px;
-        padding-left: 24px;
-        height: 36px;
-        text-align: center;
+.Contact {
+    display: flex;
+    justify-content: space-evenly
 }
