@@ -1,4 +1,5 @@
 # Portfolio 
+<img width="1440" alt="Portfolio Screenshot" src="https://github.com/melmealey/Portfolio/assets/147653410/c3ad7494-34d7-415d-aed8-af73b37cf9b6">
 
 <Portfolio>
 
